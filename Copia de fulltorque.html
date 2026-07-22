@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo PIREEP | Pisos de Resina Epóxica y Recubrimientos Industriales</title>
+  <meta name="description" content="Grupo PIREEP, Pisos de Resina Epóxica S.A. de C.V. Especialistas en pisos epoxicos, uretano cementicio, poliuretanos, poliurea pura, Ucrete, hojuela, cuarzo y mantenimiento industrial en Silao, Guanajuato.">
+  <meta name="keywords" content="pisos de resina epóxica, pisos epoxicos industriales, recubrimientos industriales, uretano cementicio, poliurea pura, Ucrete, Grupo PIREEP, Silao Guanajuato">
+  <meta property="og:title" content="Grupo PIREEP | Tecnología en Recubrimientos Industriales">
+  <meta property="og:description" content="Soluciones industriales en pisos de resina epóxica, resistencia química y mecánica, higiene y mantenimiento industrial.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero-planta-industrial.jpg">
+  <link rel="icon" type="image/png" href="assets/logo-pireep.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-panel">
+    <img src="assets/logo-pireep.png" alt="" class="ld-logo-img">
+    <div class="ld-ring"></div>
+    <div class="ld-scan"></div>
+  </div>
+  <div class="ld-brand">
+    <p class="ld-name">GRUPO <em>PIREEP</em></p>
+    <p class="ld-tag">Cargando tecnología industrial...</p>
+  </div>
+  <div class="ld-progress">
+    <div class="ld-track"><div class="ld-fill"></div></div>
+    <p class="ld-note">Cargando</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#hero" class="logo" aria-label="Grupo PIREEP">
+      <img src="assets/logo-pireep.png" alt="Logo de Grupo PIREEP" class="logo-img">
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Empresa</a></li>
+      <li><a href="#services">Ventajas</a></li>
+      <li><a href="#inventario">Soluciones</a></li>
+      <li><a href="#numbers">Proceso</a></li>
+      <li><a href="#galeria">Proyectos</a></li>
+      <li><a href="#contact" class="nav-cta">Cotizar por WhatsApp</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Empresa</a>
+  <a href="#services">Ventajas</a>
+  <a href="#inventario">Soluciones</a>
+  <a href="#numbers">Proceso</a>
+  <a href="#galeria">Proyectos</a>
+  <a href="#contact">Cotizar por WhatsApp</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" aria-label="Encabezado principal">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow rev">Tecnología en Recubrimientos Industriales</p>
+      <h1 class="hero-h1 rev d1">
+        <span class="h1-line"><span class="h1-inner">Pisos industriales</span></span>
+        <span class="h1-line"><span class="h1-inner">de alta</span></span>
+        <span class="h1-line"><span class="h1-inner">resistencia</span></span>
+        <span class="h1-line h1-accent"><span class="h1-inner">con acabado epoxico</span></span>
+      </h1>
+      <p class="hero-typewriter rev d2" aria-label="Soluciones de recubrimiento">
+        <span class="tw-label">Soluciones para:</span>
+        <span class="tw-text" id="twText"></span><span class="tw-cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-p rev d3">
+        Grupo PIREEP transforma plantas alimenticias, farmacéuticas, bodegas, cuartos frios y áreas de producción con recubrimientos de resina epóxica, resistencia química y mecánica, higiene y fácil mantenimiento.
+      </p>
+      <div class="hero-btns rev d4">
+        <a href="https://wa.me/524722453157?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n%20para%20pisos%20industriales%20con%20Grupo%20PIREEP." target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Solicitar Cotización
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#inventario" class="btn-secondary">Ver Soluciones</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Datos de confianza">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="8" data-prefix="" data-suffix="">0</span>
+          <span class="stat-lbl">Tipos de pisos industriales</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="3" data-prefix="" data-suffix="">0</span>
+          <span class="stat-lbl">Servicios de mantenimiento</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="2" data-prefix="" data-suffix="">0</span>
+          <span class="stat-lbl">Correos de contacto</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-badge" aria-hidden="true">
+    <span class="hb-dot"></span>
+    <span class="hb-text">Pisos de Resina Epóxica S.A. de C.V.</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Industrias atendidas">
+  <div class="trust-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="trust-row rev">
+      <p class="trust-label">Espacios industriales</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Plantas alimenticias</span>
+        <span class="trust-chip">Farmaceuticas</span>
+        <span class="trust-chip">Bodegas</span>
+        <span class="trust-chip">Cuartos frios</span>
+        <span class="trust-chip">Areas de producción</span>
+        <span class="trust-chip">Areas sanitarias</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main">
+          <img src="assets/piso-epoxico-azul.jpg" alt="Piso epoxico azul instalado en area industrial por Grupo PIREEP" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">B2B</p>
+          <p class="a-lbl">Soluciones industriales</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="heading heading--shine">Recubrimientos para operaciónes que no pueden detenerse</h2>
+        <p>Grupo PIREEP, Pisos de Resina Epóxica S.A. de C.V., es una empresa especializada en pisos de resina epóxica y soluciones de mantenimiento industrial.</p>
+        <p>La propuesta se centra en recubrimientos de alta tecnología para espacios que requieren resistencia química y mecánica, higiene, acabados de fácil mantenimiento y calidad certificada para la industria.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="11" data-prefix="" data-suffix=""></p>
+            <p class="a-stat-l">Soluciones consolidadas</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="8" data-prefix="" data-suffix=""></p>
+            <p class="a-stat-l">Lineas de pisos</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="3" data-prefix="" data-suffix=""></p>
+            <p class="a-stat-l">Servicios industriales</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Silao</p>
+            <p class="a-stat-l">Guanajuato</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow">Por qué elegirnos</p>
+      <h2 class="heading heading--shine">Cuatro razones para especificar Grupo PIREEP</h2>
+      <p class="sub">Una landing industrial debe vender confianza: tecnología, resistencia, higiene y evidencia real de trabajo ejecutado.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card rev d1">
+        <span class="svc-num" aria-hidden="true">01</span>
+        <h3>Resistencia química y mecánica</h3>
+        <p>Sistemas pensados para áreas de producción, bodegas y entornos donde el piso recibe carga, transito y exposicion industrial.</p>
+      </div>
+      <div class="svc-card rev d2">
+        <span class="svc-num" aria-hidden="true">02</span>
+        <h3>Higiene y fácil mantenimiento</h3>
+        <p>Acabados continuos que ayudan a mantener espacios mas limpios, ordenados y adecuados para operaciónes alimenticias, farmacéuticas y sanitarias.</p>
+      </div>
+      <div class="svc-card rev d3">
+        <span class="svc-num" aria-hidden="true">03</span>
+        <h3>Portafolio tecnico amplio</h3>
+        <p>Resina epóxica, uretano cementicio, poliuretanos, poliurea pura, Ucrete, hojuela y cuarzo en una sola operación especializada.</p>
+      </div>
+      <div class="svc-card rev d4">
+        <span class="svc-num" aria-hidden="true">04</span>
+        <h3>Proyectos reales documentados</h3>
+        <p>La página integra fotografias de trabajos ejecutados en plantas, cuartos frios, pasillos, maquinaria y áreas industriales reales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUCIONES -->
+<section id="inventario" class="section bg-white">
+  <div class="wrap">
+    <div class="prod-header rev">
+      <div>
+        <p class="eyebrow">Servicios y productos</p>
+        <h2 class="heading heading--shine">Soluciones de piso y mantenimiento industrial</h2>
+      </div>
+      <a href="#contact" class="btn-outline">Cotizar proyecto</a>
+    </div>
+    <div class="prod-grid">
+      <article class="prod-card rev d1">
+        <div class="prod-photo"><img src="assets/piso-epoxico-azul.jpg" alt="Piso de resina epóxica azul de alto brillo en area industrial" loading="lazy"></div>
+        <h3>Resina Epóxica</h3>
+        <p>Recubrimiento industrial para transformar áreas de producción, bodegas y espacios que requieren limpieza visual y resistencia.</p>
+      </article>
+      <article class="prod-card rev d2">
+        <div class="prod-photo"><img src="assets/area-sanitaria.jpg" alt="Area sanitaria con piso industrial brillante instalado por Grupo PIREEP" loading="lazy"></div>
+        <h3>Uretano Cementicio</h3>
+        <p>Sistema orientado a entornos industriales que demandan alta durabilidad y mantenimiento eficiente.</p>
+      </article>
+      <article class="prod-card rev d3">
+        <div class="prod-photo"><img src="assets/pasillo-industrial.jpg" alt="Pasillo industrial con piso recubierto y acabado uniforme" loading="lazy"></div>
+        <h3>Poliuretanos</h3>
+        <p>Pisos y pintura de poliuretano para proteger superficies y elevar el desempeño de las áreas operativas.</p>
+      </article>
+      <article class="prod-card rev d4">
+        <div class="prod-photo"><img src="assets/poliuretano-exterior.jpg" alt="Aplicación de recubrimiento industrial en estructura exterior" loading="lazy"></div>
+        <h3>Poliurea Pura</h3>
+        <p>Solución de recubrimiento industrial para proyectos que requieren proteccion especializada.</p>
+      </article>
+      <article class="prod-card rev d5">
+        <div class="prod-photo"><img src="assets/cuarto-frio.jpg" alt="Cuarto frio o area controlada con piso industrial limpio" loading="lazy"></div>
+        <h3>Espuma de Poliuretano</h3>
+        <p>Servicio especializado dentro del portafolio de recubrimientos y mantenimiento industrial de Grupo PIREEP.</p>
+      </article>
+      <article class="prod-card rev d6">
+        <div class="prod-photo"><img src="assets/maquinaria-produccion.jpg" alt="Area de producción industrial con maquinaria y zonas delimitadas" loading="lazy"></div>
+        <h3>Ucrete</h3>
+        <p>Alternativa tecnica para superficies industriales donde se busca resistencia, higiene y continuidad operativa.</p>
+      </article>
+      <article class="prod-card rev d1">
+        <div class="prod-photo"><img src="assets/bodega-industrial.jpg" alt="Bodega industrial con piso epoxico y lineas de seguridad" loading="lazy"></div>
+        <h3>Hojuela</h3>
+        <p>Acabado decorativo y funcional para superficies que necesitan imagen profesional y mantenimiento sencillo.</p>
+      </article>
+      <article class="prod-card rev d2">
+        <div class="prod-photo"><img src="assets/piso-alto-brillo.jpg" alt="Piso industrial de alto brillo en area de proceso" loading="lazy"></div>
+        <h3>Cuarzo</h3>
+        <p>Acabado industrial de alto impacto visual para proyectos donde el piso tambien comunica orden y precision.</p>
+      </article>
+      <article class="prod-card rev d3">
+        <div class="prod-photo"><img src="assets/hero-planta-industrial.jpg" alt="Planta industrial con piso claro ejecutado por Grupo PIREEP" loading="lazy"></div>
+        <h3>Cancelería Sanitaria</h3>
+        <p>Servicio complementario para espacios industriales y sanitarios que requieren soluciones limpias y funcionales.</p>
+      </article>
+      <article class="prod-card rev d4">
+        <div class="prod-photo"><img src="assets/mantenimiento-altura.jpg" alt="Trabajo de mantenimiento industrial en altura dentro de planta" loading="lazy"></div>
+        <h3>Pinturas</h3>
+        <p>Aplicación de pintura como parte de las soluciones de mantenimiento industrial de la empresa.</p>
+      </article>
+      <article class="prod-card rev d5">
+        <div class="prod-photo"><img src="assets/preparacion-superficie.jpg" alt="Preparación mecánica de superficie antes de aplicar recubrimiento industrial" loading="lazy"></div>
+        <h3>Trabajos Generales</h3>
+        <p>Apoyo en mantenimiento y trabajos industriales complementarios para preparar, proteger y renovar espacios productivos.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section bg-navy">
+  <div class="why-bg" aria-hidden="true"></div>
+  <canvas id="pcanvasWhy" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-img-wrap rev from-r">
+        <div class="why-img-main">
+          <img src="assets/aplicacion-piso.jpg" alt="Aplicación de piso industrial en area de planta por personal especializado" loading="lazy">
+        </div>
+        <div class="why-img-badge">
+          <p class="wib-n">PIREEP</p>
+          <p class="wib-l">Enfoque industrial</p>
+        </div>
+      </div>
+      <div class="why-content rev">
+        <p class="eyebrow eyebrow--white">Precision industrial</p>
+        <h2 class="heading heading--white heading--shine-dark">Una superficie que trabaja con tu planta</h2>
+        <p class="sub sub--white">El piso no es un acabado decorativo: es una parte critica de la operación, la higiene, el transito y el mantenimiento.</p>
+        <div class="benefit-list">
+          <div class="benefit">
+            <span class="ben-num">01</span>
+            <div><h4>Diagnostico por uso del area</h4><p>Se consideran zonas de producción, bodegas, cuartos frios y áreas sanitarias para definir la solución adecuada.</p></div>
+          </div>
+          <div class="benefit">
+            <span class="ben-num">02</span>
+            <div><h4>Preparación de superficie</h4><p>La evidencia fotografica muestra procesos de preparación mecánica antes de aplicar recubrimientos.</p></div>
+          </div>
+          <div class="benefit">
+            <span class="ben-num">03</span>
+            <div><h4>Aplicación especializada</h4><p>Trabajo ejecutado en entornos industriales reales, con equipos, áreas delimitadas y condiciones de planta.</p></div>
+          </div>
+          <div class="benefit">
+            <span class="ben-num">04</span>
+            <div><h4>Acabados de fácil limpieza</h4><p>Superficies uniformes y brillantes que ayudan a elevar la percepción de higiene, orden y control operativo.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESO Y NUMEROS -->
+<section id="numbers">
+  <div class="numbers-bg" aria-hidden="true"></div>
+  <div class="numbers-ov" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow eyebrow--white">Cómo funciona</p>
+      <h2 class="heading heading--white heading--shine-dark">De diagnóstico a recubrimiento listo</h2>
+    </div>
+    <div class="numbers-grid process-grid">
+      <div class="number-item rev d1">
+        <p class="num-v">Paso 01</p>
+        <p class="num-l">Comparte el tipo de area industrial, uso del piso y necesidad principal del proyecto.</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v">Paso 02</p>
+        <p class="num-l">Grupo PIREEP define la solución: epóxica, uretano, poliuretano, poliurea, Ucrete, hojuela o cuarzo.</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">Paso 03</p>
+        <p class="num-l">Se prepara la superficie y se ejecuta el recubrimiento con enfoque industrial y acabados de fácil mantenimiento.</p>
+      </div>
+    </div>
+    <div class="metrics-row rev d4">
+      <div><strong data-count="11">0</strong><span>Soluciones listadas</span></div>
+      <div><strong data-count="8">0</strong><span>Pisos especializados</span></div>
+      <div><strong data-count="3">0</strong><span>Servicios industriales</span></div>
+      <div><strong data-count="2">0</strong><span>Correos disponibles</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria">
+  <canvas id="pcanvasGaleria" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Galeria de trabajos reales</p>
+      <h2 class="heading heading--white heading--shine-dark">Evidencia visual de proyectos ejecutados</h2>
+      <p class="brands-sub">Fotografias proporcionadas en la carpeta del proyecto: pisos epoxicos, preparación, aplicación y mantenimiento en planta.</p>
+    </div>
+    <div class="brands-grid">
+      <figure class="brand-card rev d1">
+        <div class="brand-card-inner"><img src="assets/hero-planta-industrial.jpg" alt="Planta industrial con piso claro y delimitacion de seguridad" loading="lazy"></div>
+        <figcaption>Piso industrial claro en planta de producción.</figcaption>
+      </figure>
+      <figure class="brand-card rev d2">
+        <div class="brand-card-inner"><img src="assets/piso-epoxico-azul.jpg" alt="Piso epoxico azul brillante en area controlada" loading="lazy"></div>
+        <figcaption>Acabado epoxico azul de alto brillo.</figcaption>
+      </figure>
+      <figure class="brand-card rev d3">
+        <div class="brand-card-inner"><img src="assets/preparacion-superficie.jpg" alt="Preparación con herramienta de corte y aspiracion industrial" loading="lazy"></div>
+        <figcaption>Preparación mecánica de la superficie.</figcaption>
+      </figure>
+      <figure class="brand-card rev d4">
+        <div class="brand-card-inner"><img src="assets/area-sanitaria.jpg" alt="Area sanitaria con piso brillante y canceleria" loading="lazy"></div>
+        <figcaption>Area sanitaria con superficie continua.</figcaption>
+      </figure>
+      <figure class="brand-card rev d1">
+        <div class="brand-card-inner"><img src="assets/bodega-industrial.jpg" alt="Bodega industrial con piso recubierto y lineas amarillas" loading="lazy"></div>
+        <figcaption>Bodega con lineas de seguridad visibles.</figcaption>
+      </figure>
+      <figure class="brand-card rev d2">
+        <div class="brand-card-inner"><img src="assets/mantenimiento-altura.jpg" alt="Mantenimiento industrial en altura dentro de nave" loading="lazy"></div>
+        <figcaption>Trabajo industrial en altura y mantenimiento.</figcaption>
+      </figure>
+      <figure class="brand-card rev d3">
+        <div class="brand-card-inner"><img src="assets/pasillo-industrial.jpg" alt="Pasillo de planta con piso industrial terminado" loading="lazy"></div>
+        <figcaption>Pasillo operativo con acabado uniforme.</figcaption>
+      </figure>
+      <figure class="brand-card rev d4">
+        <div class="brand-card-inner"><img src="assets/maquinaria-produccion.jpg" alt="Area de producción con maquinaria y recubrimiento industrial" loading="lazy"></div>
+        <figcaption>Recubrimiento en area de producción.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info rev from-l">
+        <div class="contact-info-bg" aria-hidden="true"></div>
+        <div class="contact-info-content">
+          <p class="eyebrow eyebrow--white">Contáctanos</p>
+          <h2 class="heading heading--white">Solicita una cotización industrial</h2>
+          <p class="sub sub--white">Envia los datos de tu area y recibe seguimiento por WhatsApp. No se envian correos automaticos ni formularios sin respuesta.</p>
+          <div class="c-item">
+            <div class="c-icon">☎</div>
+            <div><p class="c-label">Teléfono / WhatsApp</p><p class="c-value"><a href="tel:+524722453157">472 245 3157</a></p></div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">@</div>
+            <div><p class="c-label">Correo principal</p><p class="c-value"><a href="mailto:epoxicosdemexico.industrial@hotmail.com">epoxicosdemexico.industrial@hotmail.com</a></p></div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">@</div>
+            <div><p class="c-label">Correo alterno</p><p class="c-value"><a href="mailto:pisosindustrialesgrupopireep@gmail.com">pisosindustrialesgrupopireep@gmail.com</a></p></div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">⌖</div>
+            <div><p class="c-label">Dirección</p><p class="c-value">C. Río Tuxpan 15, Fracc. Valle de San José, Silao, Guanajuato</p></div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">◷</div>
+            <div><p class="c-label">Horario</p><p class="c-value">Por confirmar al solicitar cotización</p></div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">f</div>
+            <div><p class="c-label">Facebook</p><p class="c-value"><a href="https://www.facebook.com/share/14sg9qGdyVU/" target="_blank" rel="noopener noreferrer">facebook.com/share/14sg9qGdyVU</a></p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Cuéntanos sobre tu proyecto</h3>
+          <p class="form-sub">El formulario abre WhatsApp con tu mensaje listo para enviar.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre completo *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Tu nombre" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono *</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="+52 472 000 0000" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">Servicio de interes *</label>
+              <select class="fi" id="fs" name="tipo" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Resina Epóxica">Resina Epóxica</option>
+                <option value="Uretano Cementicio">Uretano Cementicio</option>
+                <option value="Poliuretanos / Pintura de Poliuretano">Poliuretanos / Pintura de Poliuretano</option>
+                <option value="Poliurea Pura">Poliurea Pura</option>
+                <option value="Espuma de Poliuretano">Espuma de Poliuretano</option>
+                <option value="Ucrete">Ucrete</option>
+                <option value="Hojuela">Hojuela</option>
+                <option value="Cuarzo">Cuarzo</option>
+                <option value="Cancelería Sanitaria">Cancelería Sanitaria</option>
+                <option value="Pinturas">Pinturas</option>
+                <option value="Trabajos Generales">Trabajos Generales</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Mensaje</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="4" placeholder="Tipo de planta, area, condiciones del piso o necesidad principal..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-card rev">
+      <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=C.+Rio+Tuxpan+15,+Fracc.+Valle+de+San+Jose,+Silao,+Guanajuato" target="_blank" rel="noopener noreferrer" aria-label="Abrir la ubicación de Grupo PIREEP en Google Maps">
+        <iframe class="map-frame" src="https://maps.google.com/maps?q=C.%20Rio%20Tuxpan%2015%2C%20Fracc.%20Valle%20de%20San%20Jose%2C%20Silao%2C%20Guanajuato&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Ubicación de Grupo PIREEP en Google Maps" aria-hidden="true" tabindex="-1"></iframe>
+        <span class="map-tag">Ver en Google Maps · Silao, Guanajuato</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <img src="assets/logo-pireep.png" alt="Logo de Grupo PIREEP" class="foot-logo-img">
+        </div>
+        <p class="foot-desc">Tecnología en Recubrimientos Industriales para plantas, bodegas, cuartos frios, áreas de producción y espacios sanitarios.</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/share/14sg9qGdyVU/" target="_blank" rel="noopener noreferrer" aria-label="Grupo PIREEP en Facebook" class="foot-social-btn">f</a>
+          <a href="https://wa.me/524722453157" target="_blank" rel="noopener noreferrer" aria-label="Grupo PIREEP en WhatsApp" class="foot-social-btn">WA</a>
+        </div>
+      </div>
+      <div>
+        <p class="foot-col-title">Menú</p>
+        <ul class="foot-links">
+          <li><a href="#about">Empresa</a></li>
+          <li><a href="#services">Ventajas</a></li>
+          <li><a href="#inventario">Soluciones</a></li>
+          <li><a href="#galeria">Proyectos</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Pisos de</p>
+        <ul class="foot-links">
+          <li><a href="#inventario">Resina Epóxica</a></li>
+          <li><a href="#inventario">Uretano Cementicio</a></li>
+          <li><a href="#inventario">Poliuretanos</a></li>
+          <li><a href="#inventario">Poliurea Pura</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <ul class="foot-links">
+          <li><a href="tel:+524722453157">472 245 3157</a></li>
+          <li><a href="mailto:epoxicosdemexico.industrial@hotmail.com">Correo principal</a></li>
+          <li><a href="https://www.facebook.com/share/14sg9qGdyVU/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="#contact">Cotizar proyecto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>Grupo PIREEP</span>. Todos los derechos reservados.</p>
+      <p>Pisos de Resina Epóxica S.A. de C.V.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING ACTION BUTTONS -->
+<div class="fab-stack">
+  <div class="fab-item">
+    <span class="fab-tip">Facebook</span>
+    <a href="https://www.facebook.com/share/14sg9qGdyVU/" target="_blank" rel="noopener noreferrer" class="fab-btn fb-btn" aria-label="Visitar Grupo PIREEP en Facebook">f</a>
+  </div>
+  <div class="fab-item">
+    <span class="fab-tip">WhatsApp</span>
+    <a href="https://wa.me/524722453157?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n%20con%20Grupo%20PIREEP." target="_blank" rel="noopener noreferrer" class="fab-btn wa-btn" aria-label="Contactar a Grupo PIREEP por WhatsApp">WA</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
