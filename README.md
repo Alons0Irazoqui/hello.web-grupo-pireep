@@ -13,8 +13,8 @@ El desarrollador trabajará sobre una **plantilla base de HTML ya existente**, p
 Extraída de los archivos en `imagenes/` (logo, flyers y fotografías de proyectos ejecutados) y de la información complementaria proporcionada.
 
 - **Nombre comercial:** Grupo PIREEP
-- **Razón social:** Pisos de Resina Epóxica S.A. de C.V.
-- **Tagline / posicionamiento:** "Tecnología en Recubrimientos Industriales"
+- **Naturaleza legal:** Persona física con actividad empresarial y profesional.
+- **Tagline / posicionamiento:** "Soluciones en Pisos Epóxicos y Mantenimiento Industrial"
 - **Descripción del negocio:** Empresa especializada en pisos de resina epóxica y soluciones de mantenimiento industrial. Transforma espacios industriales (plantas alimenticias, farmacéuticas, bodegas, cuartos fríos, áreas de producción) con recubrimientos de alta tecnología, resistencia química/mecánica, higiene y acabados de fácil mantenimiento y calidad certificada para la industria.
 
 ### Servicios y productos (consolidado de ambos flyers)
@@ -26,11 +26,12 @@ Extraída de los archivos en `imagenes/` (logo, flyers y fotografías de proyect
 - Poliurea Pura
 - Espuma de Poliuretano
 - Ucrete
-- Hojuela
-- Cuarzo
+- Piso de hojuela
+- Pisos decorativos
+- Cáscara de naranja
 
 **Servicios de:**
-- Cancelería Sanitaria
+- Cancelería de aluminio
 - Pinturas
 - Trabajos Generales
 
@@ -39,8 +40,8 @@ Extraída de los archivos en `imagenes/` (logo, flyers y fotografías de proyect
 | Dato | Valor |
 |---|---|
 | Teléfono | 472 245 3157 |
-| Correo (contacto principal) | epoxicosdemexico.industrial@hotmail.com |
-| Correo (alterno) | pisosindustrialesgrupopireep@gmail.com |
+| Correo (contacto principal) | grupopireep.pisosepoxicos@hotmail.com |
+| Correo (alterno) | epoxicosdemexico.industrial@hotmail.com |
 | Dirección | C. Río Tuxpan 15, Fracc. Valle de San José, Silao, Guanajuato |
 | Facebook | https://www.facebook.com/share/14sg9qGdyVU/ |
 
@@ -50,6 +51,21 @@ Extraída de los archivos en `imagenes/` (logo, flyers y fotografías de proyect
 - Acabados de fácil mantenimiento
 - Calidad certificada para la industria
 - Experiencia comprobada en proyectos industriales de gran escala (plantas de producción, cuartos fríos, bodegas, áreas sanitarias)
+- Personal capacitado en aplicación y servicios industriales, con DC-3, altas de seguros y EPP completo.
+
+### Certificados y reconocimientos
+
+- Certificado GC Flooring Systems — certificado como aplicadores profesionales.
+- Certificado de reconocimiento (Ing. Marco Antonio López) — proyecto concluido con entera satisfacción.
+- Certificado Hoberk — reconocimiento como aplicadores de poliurea pura.
+
+### Marcas con las que trabajan
+
+Sika, Epoxemex, Racsa, Mexicana de Poliurea, Pinturas Nervión, Verdía, Graco y Husqvarna.
+
+### Clientes con quienes han colaborado
+
+Nestlé Purina, KYB, Nivea, Usui Internacional, Kerry, Moldex, Aspen y Baxter.
 
 ---
 
